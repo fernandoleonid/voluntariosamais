@@ -17,12 +17,15 @@ select{
 }
 
 .aviso{
-    height: 5vh;
+    height: 10vh;
     background-color: #70D8FF;
     display: flex;
+    flex-direction: column;
+    gap: 12px;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    text-align: center;
 }
 .pesquisa{
     display: flex;
