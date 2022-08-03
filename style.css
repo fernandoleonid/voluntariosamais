@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+select{
+    padding: 8px;
+    width: 100%;
+}
+
+.aviso{
+    height: 5vh;
+    background-color: #70D8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.pesquisa{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pesquisa>div{
+    min-width: 300px;
+    min-height: 300px;
+    padding: 12px;
+    box-shadow: 4px 4px 12px #d1d1d1;
+}
+
+.pesquisa__result{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    gap: 8px;
+}
+.agenda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenda__dia{
+    display: flex;
+    align-items: center;
+    width:70%;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #c1c1c1;
+}
+.agenda__horario{
+    width:30%;
+    padding: 8px;
+    box-shadow: 0px 0px 4px #c1c1c1;
+    text-align: end;
+}
+
+.agenda__horario-dia{
+    padding: 8px;
+    text-align: center;
+    font-weight: 900;
+    box-shadow: 0px 0px 4px #c1c1c1;
+    background-color: #9BE4FF;
+}
+
+.agenda__nome-dia{
+    padding: 8px 0px 0px 12px;
+    font-size: .9rem;
+}
