@@ -185,7 +185,7 @@ const voluntarios = [
     "Digite seu nome": "Maria Aparecida da Silva",
     "Celular": 11975146200,
     "Sexta-feira 05 de Agosto": "",
-    "Sábado 06 de Agosto": "14h às 19h",
+    "Sábado 06 de Agosto": "19h às 23h",
     "Domingo 07 de Agosto": "",
     "Segunda-feira 08 de Agosto": "",
     "Terça-feira 09 de Agosto": "",
