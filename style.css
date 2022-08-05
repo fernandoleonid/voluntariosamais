@@ -30,15 +30,21 @@ select{
 .pesquisa{
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+    .pesquisa>div{
+        width: 90%;
+    }
 }
 
 .pesquisa>div{
     min-width: 300px;
     min-height: 300px;
     padding: 12px;
-    box-shadow: 4px 4px 12px #d1d1d1;
+    box-shadow: 0px 0px 12px #555;
 }
 
 .pesquisa__result{
@@ -47,9 +53,15 @@ select{
     padding-top: 8px;
     gap: 8px;
 }
+
+.pesquisa__result>div{
+    border: 1px solid black;
+}
+
 .agenda{
     display: flex;
     justify-content: space-between;
+    gap: 2px;
 }
 
 .agenda__dia{
@@ -57,12 +69,14 @@ select{
     align-items: center;
     width:70%;
     padding: 8px;
-    box-shadow: 0px 0px 4px #c1c1c1;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 4px 1px #c1c1c1;
 }
 .agenda__horario{
     width:30%;
     padding: 8px;
-    box-shadow: 0px 0px 4px #c1c1c1;
+    box-shadow: 0px 0px 4px 1px #c1c1c1;
+    /* border-left: 1px solid black; */
     text-align: end;
 }
 
@@ -70,7 +84,7 @@ select{
     padding: 8px;
     text-align: center;
     font-weight: 900;
-    box-shadow: 0px 0px 4px #c1c1c1;
+    box-shadow: 0px 4px 4px #c1c1c1;
     background-color: #9BE4FF;
 }
 
