@@ -479,9 +479,9 @@ const voluntarios = [
     "Terça-feira 09 de Agosto": "",
     "Quarta-feira 10 de Agosto": "",
     "Quinta-feira 11 de Agosto": "",
-    "Sexta-feira 12 de Agosto": "",
+    "Sexta-feira 12 de Agosto": "19h às 23h",
     "Sábado 13 de Agosto": "",
-    "Domingo 14 de Agosto": "09h às 14h",
+    "Domingo 14 de Agosto": "",
     "Segunda-feira 15 de Agosto": "",
     "Terça-feira 16 de Agosto": ""
   },
