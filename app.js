@@ -334,7 +334,7 @@ const voluntarios = [
     "Segunda-feira 08 de Agosto": "",
     "Terça-feira 09 de Agosto": "",
     "Quarta-feira 10 de Agosto": "",
-    "Quinta-feira 11 de Agosto": "",
+    "Quinta-feira 11 de Agosto": "16h às 19h",
     "Sexta-feira 12 de Agosto": "",
     "Sábado 13 de Agosto": "19h às 23h",
     "Domingo 14 de Agosto": "19h às 23h",
