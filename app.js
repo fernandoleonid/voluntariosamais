@@ -140,7 +140,7 @@ const voluntarios = [
     "Sexta-feira 12 de Agosto": "19h às 23h",
     "Sábado 13 de Agosto": "",
     "Domingo 14 de Agosto": "14h às 19h;19h às 23h",
-    "Segunda-feira 15 de Agosto": "09h às 14h;14h às 19h;19h às 23h",
+    "Segunda-feira 15 de Agosto": "14h às 19h;19h às 23h",
     "Terça-feira 16 de Agosto": "09h às 14h;14h às 19h;19h às 23h"
   },
   {
@@ -176,7 +176,7 @@ const voluntarios = [
     "Sexta-feira 12 de Agosto": "16h às 19h",
     "Sábado 13 de Agosto": "09h às 14h",
     "Domingo 14 de Agosto": "09h às 14h",
-    "Segunda-feira 15 de Agosto": "09h às 14h",
+    "Segunda-feira 15 de Agosto": "19h às 23h",
     "Terça-feira 16 de Agosto": "09h às 14h"
   },
   {
@@ -338,7 +338,7 @@ const voluntarios = [
     "Sexta-feira 12 de Agosto": "16h às 19h",
     "Sábado 13 de Agosto": "",
     "Domingo 14 de Agosto": "",
-    "Segunda-feira 15 de Agosto": "09h às 14h",
+    "Segunda-feira 15 de Agosto": "",
     "Terça-feira 16 de Agosto": ""
   },
   {
@@ -572,7 +572,7 @@ const voluntarios = [
     "Sexta-feira 12 de Agosto": "",
     "Sábado 13 de Agosto": "",
     "Domingo 14 de Agosto": "",
-    "Segunda-feira 15 de Agosto": "09h às 14h",
+    "Segunda-feira 15 de Agosto": "",
     "Terça-feira 16 de Agosto": ""
   },
   {
