@@ -64,7 +64,7 @@ const listarDatas = ({ target }) => {
     resultado.innerHTML += `
         <div class="agenda">
           <div class="agenda__dia">${day.dia}</div>
-          <div class="agenda__horario"><div>${day.horario.replace(
+          <div class="agenda__horario"><div>${day.horario?.replace(
             /;/g,
             "</div><div>"
           )}</div></div>
@@ -91,13 +91,10 @@ const listarVoluntarios = ({ target }) => {
         .join(";")
         .split(";")
     ),
-  ].sort();
+  ].sort().slice(1,100);
 
-
-  resultado.textContent = "";
-
+  resultado.innerHTML = ''
   horarios.forEach( horario => {
-    console.log (horario)
     const nomes = voluntarioDia
       .filter((voluntario) => voluntario.horario?.includes(horario))
       .map((voluntario) => voluntario.nome.toUpperCase());
