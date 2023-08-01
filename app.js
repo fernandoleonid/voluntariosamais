@@ -53,12 +53,16 @@ const listarDatas = ({ target }) => {
 
   if (target.value == "") return 0;
 
+
   const dayTime = voluntariosDias.map((day) => ({
     dia: day,
-    horario: voluntariosNome(target.value)[0][day],
+    horario: voluntariosNome(target.value)[0][day]
   }));
 
-  const workDays = dayTime.filter((day) => day.horario !== "");
+  
+  const workDays = dayTime.filter((day) => day.horario !== undefined);
+
+  console.log (workDays)
 
   workDays.forEach((day) => {
     resultado.innerHTML += `
