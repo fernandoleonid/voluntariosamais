@@ -31,7 +31,7 @@ const carregarDias = () => {
 const voluntariosNome = (nome) =>
   voluntarios.filter(
     (voluntario) =>
-      voluntario["Digite seu nome"].toUpperCase() == nome.toUpperCase()
+      voluntario["Digite seu nome"].trim().toUpperCase() == nome.toUpperCase()
   );
 
 const carregarVoluntarios = () => {
@@ -101,7 +101,8 @@ const listarVoluntarios = ({ target }) => {
   horarios.forEach( horario => {
     const nomes = voluntarioDia
       .filter((voluntario) => voluntario.horario?.includes(horario))
-      .map((voluntario) => voluntario.nome.toUpperCase());
+      .map((voluntario) => voluntario.nome.toUpperCase())
+      .sort();
     //  .join('</div><div class="agenda__nome-dia">').toUpperCase()
     resultado.innerHTML += `
         <div>

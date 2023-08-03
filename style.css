@@ -94,3 +94,6 @@ select{
     padding: 8px 0px 0px 12px;
     font-size: .9rem;
 }
+div[content*="CAIXA"]{
+    color: red;
+}
