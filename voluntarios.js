@@ -40,7 +40,6 @@ export const voluntarios = [
      "Endereço de e-mail": "martinhomendescristiane@gmail.com",
      "Digite seu nome": "Cristiane Martinho Mendes ",
      "Celular": 1141522798,
-     "Domingo 06 de Agosto": "13h às 18h",
      "Domingo 13 de Agosto": "13h às 18h"
     },
     {
@@ -64,7 +63,6 @@ export const voluntarios = [
      "Digite seu nome": "Alesandra Souza",
      "Celular": 11930986417,
      "Sexta-feira 04 de Agosto": "19h às 23h",
-     "Sábado 05 de Agosto": "18h às 23h",
      "Domingo 06 de Agosto": "18h às 23h",
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Quarta-feira 09 de Agosto": "19h às 23h",
@@ -244,13 +242,6 @@ export const voluntarios = [
      "Quarta-feira 16 de Agosto": "14h às 19h"
     },
     {
-     "Carimbo de data\/hora": "8\/2\/2023 8:37:33",
-     "Endereço de e-mail": "srschumacker@hotmail.com.br",
-     "Digite seu nome": "Silvia Schumacker ",
-     "Celular": 11972657155,
-     "Sábado 05 de Agosto": "13h às 18h"
-    },
-    {
      "Carimbo de data\/hora": "8\/2\/2023 9:13:38",
      "Endereço de e-mail": "jeh.c.freitas@gmail.com",
      "Digite seu nome": "Jéssica Cristiane de Freitas",
@@ -364,7 +355,7 @@ export const voluntarios = [
     {
      "Carimbo de data\/hora": "8\/4\/2023 10:55:35",
      "Endereço de e-mail": "glaudineia2016@gmail.com",
-     "Digite seu nome": "Claudia ",
+     "Digite seu nome": "Neida (Claudia)",
      "Celular": "11 9 7279-0967 ",
      "Sexta-feira 04 de Agosto": "19h às 23h",
      "Sábado 05 de Agosto": "18h às 23h",
@@ -381,5 +372,22 @@ export const voluntarios = [
      "Terça-feira 08 de Agosto": "16h às 19h",
      "Quinta-feira 10 de Agosto": "16h às 19h",
      "Sábado 12 de Agosto": "13h às 18h"
+    },
+    {
+     "Carimbo de data\/hora": "8\/4\/2023 14:52:05",
+     "Endereço de e-mail": "dagmaroliveiramorgado@gmail.com",
+     "Digite seu nome": "Dagmar de Oliveira Morgado ",
+     "Celular": "11 957920818",
+     "Sexta-feira 04 de Agosto": "16h às 19h",
+     "Segunda-feira 07 de Agosto": "16h às 19h",
+     "Segunda-feira 14 de Agosto": "16h às 19h",
+     "Quarta-feira 16 de Agosto": "09h às 14h"
+    },
+    {
+     "Carimbo de data\/hora": "8\/5\/2023 10:56:02",
+     "Endereço de e-mail": "srschumacker@hotmail.com.br",
+     "Digite seu nome": "Silvia Schumacker ",
+     "Celular": 11972657155,
+     "Domingo 06 de Agosto": "13h às 18h"
     }
    ]
