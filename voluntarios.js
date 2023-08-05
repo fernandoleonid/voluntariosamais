@@ -355,7 +355,7 @@ export const voluntarios = [
     {
      "Carimbo de data\/hora": "8\/4\/2023 10:55:35",
      "Endereço de e-mail": "glaudineia2016@gmail.com",
-     "Digite seu nome": "Neida (Claudia)",
+     "Digite seu nome": "Neia (Claudia)",
      "Celular": "11 9 7279-0967 ",
      "Sexta-feira 04 de Agosto": "19h às 23h",
      "Sábado 05 de Agosto": "18h às 23h",
