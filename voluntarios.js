@@ -76,6 +76,7 @@ export const voluntarios = [
      "Celular": 11963879555,
      "Sábado 05 de Agosto": "13h às 18h",
      "Terça-feira 08 de Agosto": "16h às 19h",
+     "Quarta-feira 09 de Agosto": "20h às 23h",
      "Quinta-feira 10 de Agosto": "17h às 20h",
      "Segunda-feira 14 de Agosto": "17h às 20h"
     },
@@ -218,7 +219,7 @@ export const voluntarios = [
      "Endereço de e-mail": "deniseangelica22@yahoo.com.br",
      "Digite seu nome": "Denise",
      "Celular": 11991827433,
-     "Segunda-feira 14 de Agosto": "17h às 20h"
+     "Terça-feira 15 de Agosto": "13h às 18h"
     },
     {
      "Carimbo de data\/hora": "8\/2\/2023 6:09:22",
@@ -309,7 +310,7 @@ export const voluntarios = [
      "Celular": "11 97362-1144",
      "Sexta-feira 04 de Agosto": "19h às 23h",
      "Domingo 06 de Agosto": "18h às 23h",
-     "Sexta-feira 11 de Agosto": "20h às 23h",
+     "Sábado 12 de Agosto": "18h às 23h",
      "Domingo 13 de Agosto": "18h às 23h"
     },
     {
@@ -328,9 +329,11 @@ export const voluntarios = [
      "Celular": "11 97467-1773",
      "Sábado 05 de Agosto": "18h às 23h",
      "Domingo 06 de Agosto": "18h às 23h",
+     "Sexta-feira 11 de Agosto": "20h às 23h",
      "Sábado 12 de Agosto": "18h às 23h",
      "Domingo 13 de Agosto": "18h às 23h",
-     "Terça-feira 15 de Agosto": "18h às 23h"
+     "Terça-feira 15 de Agosto": "18h às 23h",
+     "Quarta-feira 16 de Agosto": "19h às 23h"
     },
     {
      "Carimbo de data\/hora": "8\/3\/2023 21:25:01",
@@ -348,7 +351,8 @@ export const voluntarios = [
      "Sábado 05 de Agosto": "18h às 23h",
      "Domingo 06 de Agosto": "18h às 23h",
      "Segunda-feira 07 de Agosto": "19h às 23h",
-     "Terça-feira 08 de Agosto": "19h às 23h"
+     "Terça-feira 08 de Agosto": "19h às 23h",
+     "Quinta-feira 10 de Agosto": "20h às 23h"
     },
     {
      "Carimbo de data\/hora": "8\/4\/2023 11:56:35",
@@ -357,7 +361,6 @@ export const voluntarios = [
      "Celular": "11 94089-2508",
      "Segunda-feira 07 de Agosto": "16h às 19h",
      "Terça-feira 08 de Agosto": "16h às 19h",
-     "Quinta-feira 10 de Agosto": "17h às 20h",
      "Sábado 12 de Agosto": "13h às 18h"
     },
     {
@@ -367,9 +370,7 @@ export const voluntarios = [
      "Celular": "11 957920818",
      "Sexta-feira 04 de Agosto": "16h às 19h",
      "Segunda-feira 07 de Agosto": "16h às 19h",
-     "Quarta-feira 09 de Agosto": "17h às 20h",
-     "Segunda-feira 14 de Agosto": "17h às 20h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Segunda-feira 14 de Agosto": "17h às 20h"
     },
     {
      "Carimbo de data\/hora": "8\/6\/2023 12:03:45",
