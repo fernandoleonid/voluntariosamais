@@ -82,12 +82,21 @@ const listarVoluntarios = ({ target }) => {
 
   // console.log (voluntarios)
   const resultado = document.getElementById("resultado-dias");
+  
   const voluntarioDia = voluntarios
     .filter((voluntario) => voluntario[target.value] !== "")
     .map((voluntario) => ({
       nome: voluntario["Digite seu nome"],
       horario: voluntario[target.value],
     }));
+    
+    // console.log (target.value)
+    
+    // console.log (voluntarioDia.filter(voluntario => voluntario.horario !== undefined))
+  
+
+
+
   const horarios = [
     ...new Set(
       voluntarioDia
