@@ -435,5 +435,16 @@ export const voluntarios = [
      "Digite seu nome": "Deise",
      "Celular": "11 97104-1418 ",
      "Quarta-feira 09 de Agosto": "17h às 20h"
+    },
+    {
+     "Carimbo de data\/hora": "8\/9\/2023 18:56:02",
+     "Endereço de e-mail": "magdasuaguiar@gmail.com",
+     "Digite seu nome": "Magda Aguiar",
+     "Celular": 11997388958,
+     "Sábado 12 de Agosto": "13h às 18h",
+     "Domingo 13 de Agosto": "18h às 23h",
+     "Segunda-feira 14 de Agosto": "20h às 23h",
+     "Terça-feira 15 de Agosto": "18h às 23h",
+     "Quarta-feira 16 de Agosto": "14h às 19h"
     }
    ]
