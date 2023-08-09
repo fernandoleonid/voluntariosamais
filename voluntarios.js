@@ -86,6 +86,7 @@ export const voluntarios = [
      "Digite seu nome": "Thayná Cristina Cobello Alves ",
      "Celular": "11 996333797",
      "Sexta-feira 04 de Agosto": "19h às 23h",
+     "Quinta-feira 10 de Agosto": "20h às 23h",
      "Quarta-feira 16 de Agosto": "09h às 14h"
     },
     {
@@ -93,7 +94,8 @@ export const voluntarios = [
      "Endereço de e-mail": "milena.tozi@gmail.com",
      "Digite seu nome": "Milena Tozi",
      "Celular": 11950400699,
-     "Sexta-feira 04 de Agosto": "19h às 23h"
+     "Sexta-feira 04 de Agosto": "19h às 23h",
+     "Quinta-feira 10 de Agosto": "20h às 23h"
     },
     {
      "Carimbo de data\/hora": "7\/24\/2023 13:35:21",
@@ -138,7 +140,8 @@ export const voluntarios = [
      "Endereço de e-mail": "gabrieltadeuxd@hotmail.com",
      "Digite seu nome": "GABRIEL TADEU DE ALMEIDA",
      "Celular": 11956102967,
-     "Sexta-feira 04 de Agosto": "19h às 23h"
+     "Sexta-feira 04 de Agosto": "19h às 23h",
+     "Quinta-feira 10 de Agosto": "20h às 23h"
     },
     {
      "Carimbo de data\/hora": "7\/28\/2023 21:38:13",
@@ -416,5 +419,21 @@ export const voluntarios = [
      "Digite seu nome": "Silvia Passerini ",
      "Celular": 11972285052,
      "Terça-feira 08 de Agosto": "16h às 19h"
+    },
+    {
+     "Carimbo de data\/hora": "8\/8\/2023 16:51:28",
+     "Endereço de e-mail": "pr.riicardo@gmail.com",
+     "Digite seu nome": "Rick",
+     "Celular": 15996616523,
+     "Quarta-feira 09 de Agosto": "20h às 23h",
+     "Quinta-feira 10 de Agosto": "20h às 23h",
+     "Quarta-feira 16 de Agosto": "14h às 19h"
+    },
+    {
+     "Carimbo de data\/hora": "8\/9\/2023 7:52:13",
+     "Endereço de e-mail": "deise.f.soares81@gmail.com",
+     "Digite seu nome": "Deise",
+     "Celular": "11 97104-1418 ",
+     "Quarta-feira 09 de Agosto": "17h às 20h"
     }
    ]
