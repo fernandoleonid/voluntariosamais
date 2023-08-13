@@ -355,7 +355,9 @@ export const voluntarios = [
      "Domingo 06 de Agosto": "18h às 23h",
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Terça-feira 08 de Agosto": "19h às 23h",
-     "Quinta-feira 10 de Agosto": "20h às 23h"
+     "Quinta-feira 10 de Agosto": "20h às 23h",
+     "Sábado 12 de Agosto": "18h às 23h",
+     "Domingo 13 de Agosto": "18h às 23h"
     },
     {
      "cleyde": "8\/4\/2023 11:56:35",
