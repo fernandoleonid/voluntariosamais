@@ -67,7 +67,7 @@ export const voluntarios = [
      "Sábado 12 de Agosto": "18h às 23h",
      "Domingo 13 de Agosto": "18h às 23h",
      "Segunda-feira 14 de Agosto": "20h às 23h",
-     "Quarta-feira 16 de Agosto": "19h às 23h"
+     "Terça-feira 15 de Agosto": "18h às 23h"
     },
     {
      "cleyde": "7\/23\/2023 19:35:19",
@@ -166,7 +166,7 @@ export const voluntarios = [
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Sábado 12 de Agosto": "18h às 23h",
      "Domingo 13 de Agosto": "13h às 18h",
-     "Quarta-feira 16 de Agosto": "19h às 23h"
+     "Terça-feira 15 de Agosto": "18h às 23h"
     },
     {
      "cleyde": "7\/30\/2023 20:29:39",
@@ -175,10 +175,7 @@ export const voluntarios = [
      "Celular": 11997519501,
      "Sexta-feira 11 de Agosto": "20h às 23h",
      "Sábado 12 de Agosto": "18h às 23h",
-     "Domingo 13 de Agosto": "18h às 23h",
-     "Segunda-feira 14 de Agosto": "20h às 23h",
-     "Terça-feira 15 de Agosto": "18h às 23h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Domingo 13 de Agosto": "18h às 23h"
     },
     {
      "cleyde": "7\/30\/2023 20:35:59",
@@ -237,8 +234,8 @@ export const voluntarios = [
      "Sexta-feira 11 de Agosto": "17h às 20h",
      "Domingo 13 de Agosto": "18h às 23h",
      "Segunda-feira 14 de Agosto": "20h às 23h",
-     "Terça-feira 15 de Agosto": "18h às 23h",
-     "Quarta-feira 16 de Agosto": "14h às 19h"
+     "Terça-feira 15 de Agosto": "13h às 18h",
+     "Quarta-feira 16 de Agosto": "09h às 14h"
     },
     {
      "cleyde": "8\/2\/2023 9:13:38",
@@ -304,7 +301,8 @@ export const voluntarios = [
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Terça-feira 08 de Agosto": "16h às 19h",
      "Quarta-feira 09 de Agosto": "20h às 23h",
-     "Sábado 12 de Agosto": "13h às 18h"
+     "Sábado 12 de Agosto": "13h às 18h",
+     "Quarta-feira 16 de Agosto": "19h às 23h"
     },
     {
      "cleyde": "8\/2\/2023 22:12:04",
@@ -335,6 +333,7 @@ export const voluntarios = [
      "Sexta-feira 11 de Agosto": "20h às 23h",
      "Sábado 12 de Agosto": "18h às 23h",
      "Domingo 13 de Agosto": "18h às 23h",
+     "Segunda-feira 14 de Agosto": "20h às 23h",
      "Terça-feira 15 de Agosto": "18h às 23h",
      "Quarta-feira 16 de Agosto": "19h às 23h"
     },
@@ -357,7 +356,10 @@ export const voluntarios = [
      "Terça-feira 08 de Agosto": "19h às 23h",
      "Quinta-feira 10 de Agosto": "20h às 23h",
      "Sábado 12 de Agosto": "18h às 23h",
-     "Domingo 13 de Agosto": "18h às 23h"
+     "Domingo 13 de Agosto": "18h às 23h",
+     "Segunda-feira 14 de Agosto": "20h às 23h",
+     "Terça-feira 15 de Agosto": "18h às 23h",
+     "Quarta-feira 16 de Agosto": "19h às 23h"
     },
     {
      "cleyde": "8\/4\/2023 11:56:35",
@@ -413,7 +415,8 @@ export const voluntarios = [
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Quarta-feira 09 de Agosto": "20h às 23h",
      "Sexta-feira 11 de Agosto": "20h às 23h",
-     "Sábado 12 de Agosto": "13h às 18h"
+     "Sábado 12 de Agosto": "13h às 18h",
+     "Quarta-feira 16 de Agosto": "19h às 23h"
     },
     {
      "cleyde": "8\/8\/2023 14:30:24",
@@ -429,6 +432,7 @@ export const voluntarios = [
      "Celular": 15996616523,
      "Quarta-feira 09 de Agosto": "20h às 23h",
      "Quinta-feira 10 de Agosto": "20h às 23h",
+     "Segunda-feira 14 de Agosto": "20h às 23h",
      "Quarta-feira 16 de Agosto": "14h às 19h"
     },
     {
