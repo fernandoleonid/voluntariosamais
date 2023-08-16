@@ -30,7 +30,7 @@ export const voluntarios = [
      "Quinta-feira 10 de Agosto": "17h às 20h",
      "Sexta-feira 11 de Agosto": "17h às 20h",
      "Segunda-feira 14 de Agosto": "17h às 20h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Quarta-feira 16 de Agosto": "10h às 14h"
     },
     {
      "Data Registo": "7\/22\/2023 13:50:28",
@@ -79,7 +79,8 @@ export const voluntarios = [
      "Quarta-feira 09 de Agosto": "20h às 23h",
      "Quinta-feira 10 de Agosto": "17h às 20h",
      "Segunda-feira 14 de Agosto": "17h às 20h",
-     "Terça-feira 15 de Agosto": "13h às 18h"
+     "Terça-feira 15 de Agosto": "13h às 18h",
+     "Quarta-feira 16 de Agosto": "14h às 19h"
     },
     {
      "Data Registo": "7\/24\/2023 8:46:24",
@@ -88,7 +89,7 @@ export const voluntarios = [
      "Celular": "11 996333797",
      "Sexta-feira 04 de Agosto": "19h às 23h",
      "Quinta-feira 10 de Agosto": "20h às 23h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Quarta-feira 16 de Agosto": "10h às 14h"
     },
     {
      "Data Registo": "7\/24\/2023 9:39:37",
@@ -127,7 +128,7 @@ export const voluntarios = [
      "Digite seu nome": "Tatiana Franceschi de Oliveira ",
      "Celular": 11996761010,
      "Domingo 06 de Agosto": "13h às 18h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Quarta-feira 16 de Agosto": "10h às 14h"
     },
     {
      "Data Registo": "7\/26\/2023 11:14:11",
@@ -234,7 +235,7 @@ export const voluntarios = [
      "Domingo 13 de Agosto": "18h às 23h",
      "Segunda-feira 14 de Agosto": "20h às 23h",
      "Terça-feira 15 de Agosto": "18h às 23h",
-     "Quarta-feira 16 de Agosto": "09h às 14h"
+     "Quarta-feira 16 de Agosto": "10h às 14h"
     },
     {
      "Data Registo": "8\/2\/2023 9:13:38",
@@ -415,8 +416,7 @@ export const voluntarios = [
      "Segunda-feira 07 de Agosto": "19h às 23h",
      "Quarta-feira 09 de Agosto": "20h às 23h",
      "Sexta-feira 11 de Agosto": "20h às 23h",
-     "Sábado 12 de Agosto": "13h às 18h",
-     "Quarta-feira 16 de Agosto": "19h às 23h"
+     "Sábado 12 de Agosto": "13h às 18h"
     },
     {
      "Data Registo": "8\/8\/2023 14:30:24",
@@ -487,5 +487,26 @@ export const voluntarios = [
      "Digite seu nome": "- CAIXA - Joyce",
      "Celular": 11971657461,
      "Terça-feira 15 de Agosto": "13h às 18h"
+    },
+    {
+     "Data Registo": "8\/15\/2023 20:41:02",
+     "Endereço de e-mail": "fernandoleonid@gmail.com",
+     "Digite seu nome": "- CAIXA - Fernando Leonid",
+     "Celular": "11  9  71657461",
+     "Quarta-feira 16 de Agosto": "19h às 23h"
+    },
+    {
+     "Data Registo": "8\/15\/2023 22:52:49",
+     "Endereço de e-mail": "fernandoleonid@gmail.com",
+     "Digite seu nome": "Ana Cristina",
+     "Celular": 11971657461,
+     "Quarta-feira 16 de Agosto": "19h às 23h"
+    },
+    {
+     "Data Registo": "8\/16\/2023 8:00:10",
+     "Endereço de e-mail": "fernandoleonid@gmail.com",
+     "Digite seu nome": "Adni",
+     "Celular": 11971657461,
+     "Quarta-feira 16 de Agosto": "14h às 19h"
     }
    ]
