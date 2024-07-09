@@ -1,4 +1,8 @@
-import { voluntarios } from "./voluntarios.js";
+// import { voluntarios } from "./voluntarios.js";
+
+import { getData } from "./voluntarios.js";
+
+const voluntarios = await getData()
 
 // const voluntariosDias = Object.keys(voluntarios[0]).slice(4, 20);
 const voluntariosDias = [

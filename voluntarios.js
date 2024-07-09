@@ -510,3 +510,26 @@ export const voluntarios = [
      "Quarta-feira 16 de Agosto": "14h às 19h"
     }
    ]
+   
+export async function  getData() {
+    let SHEET_ID = '1qGeeaVyVZzoSjqD-yYpoN3a2ml072GWzU7YVIqOG3WE'
+    let SHEET_TITLE = 'Respostas ao formulário 1';
+    let SHEET_RANGE = 'a:q'
+
+    let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
+
+    const response = await fetch(FULL_URL)
+    const data = await response.text()
+    const json = await JSON.parse(data.substring(47).slice(0,-2));
+
+    const cols = json.table.cols.map(col => col.label)
+    
+    const voluntarios = json.table.rows.map(row => {
+        return cols.reduce((acc, col,index) => ( row.c[index]?.v ? {
+            ...acc,
+            [col]:  row.c[index]?.v
+        }: {...acc}),{}) 
+    })
+
+    return voluntarios
+}
