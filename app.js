@@ -2,24 +2,24 @@
 
 import { getData } from "./voluntarios.js";
 
-const voluntarios = await getData()
+const {voluntarios, voluntariosDias} = await getData()
 
 // const voluntariosDias = Object.keys(voluntarios[0]).slice(4, 20);
-const voluntariosDias = [
-  'Sexta-feira 04 de Agosto',
-  'Sábado 05 de Agosto',
-  'Domingo 06 de Agosto',
-  'Segunda-feira 07 de Agosto',
-  'Terça-feira 08 de Agosto',
-  'Quarta-feira 09 de Agosto',
-  'Quinta-feira 10 de Agosto',
-  'Sexta-feira 11 de Agosto',
-  'Sábado 12 de Agosto',
-  'Domingo 13 de Agosto',
-  'Segunda-feira 14 de Agosto',
-  'Terça-feira 15 de Agosto',
-  'Quarta-feira 16 de Agosto'  
-]
+// const voluntariosDias = [
+//   'Sexta-feira 04 de Agosto',
+//   'Sábado 05 de Agosto',
+//   'Domingo 06 de Agosto',
+//   'Segunda-feira 07 de Agosto',
+//   'Terça-feira 08 de Agosto',
+//   'Quarta-feira 09 de Agosto',
+//   'Quinta-feira 10 de Agosto',
+//   'Sexta-feira 11 de Agosto',
+//   'Sábado 12 de Agosto',
+//   'Domingo 13 de Agosto',
+//   'Segunda-feira 14 de Agosto',
+//   'Terça-feira 15 de Agosto',
+//   'Quarta-feira 16 de Agosto'  
+// ]
 
 const carregarDias = () => {
   const diasList = document.getElementById("dias-list");
@@ -66,7 +66,7 @@ const listarDatas = ({ target }) => {
   
   const workDays = dayTime.filter((day) => day.horario !== undefined);
 
-  console.log (workDays)
+  // console.log (workDays)
 
   workDays.forEach((day) => {
     resultado.innerHTML += `
@@ -84,7 +84,6 @@ const listarDatas = ({ target }) => {
 const listarVoluntarios = ({ target }) => {
   if (target.value == "") return 0;
 
-  // console.log (voluntarios)
   const resultado = document.getElementById("resultado-dias");
   
   const voluntarioDia = voluntarios
@@ -93,22 +92,24 @@ const listarVoluntarios = ({ target }) => {
       nome: voluntario["Digite seu nome"],
       horario: voluntario[target.value],
     }));
-    
-    // console.log (target.value)
-    
-    // console.log (voluntarioDia.filter(voluntario => voluntario.horario !== undefined))
-  
-
-
 
   const horarios = [
     ...new Set(
       voluntarioDia
         .map((voluntario) => voluntario.horario)
-        .join(";")
-        .split(";")
+        // .join(";")
+        // .split(";")
     ),
-  ].sort().slice(1,100);
+  ].sort();
+  // const horarios = [
+  //   ...new Set(
+  //     voluntarioDia
+  //       .map((voluntario) => voluntario.horario)
+  //       .join(";")
+  //       .split(";")
+  //   ),
+  // ].sort().slice(1,100);
+
 
   resultado.innerHTML = ''
   horarios.forEach( horario => {
