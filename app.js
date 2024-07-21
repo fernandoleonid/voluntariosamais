@@ -93,14 +93,17 @@ const listarVoluntarios = ({ target }) => {
       horario: voluntario[target.value],
     }));
 
+  console.log(voluntarioDia)
   const horarios = [
     ...new Set(
       voluntarioDia
         .map((voluntario) => voluntario.horario)
+        .filter (voluntario => voluntario)
         // .join(";")
         // .split(";")
     ),
   ].sort();
+  console.log (horarios)
   // const horarios = [
   //   ...new Set(
   //     voluntarioDia
