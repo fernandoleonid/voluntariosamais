@@ -35,13 +35,13 @@ const carregarDias = () => {
 const voluntariosNome = (nome) =>
   voluntarios.filter(
     (voluntario) =>
-      voluntario["Digite seu nome"].trim().toUpperCase() == nome.toUpperCase()
+      voluntario["Digite seu nome "].trim().toUpperCase() == nome.toUpperCase()
   );
 
 const carregarVoluntarios = () => {
   const voluntariosList = document.getElementById("voluntarios-list");
   const nomes = voluntarios
-    .map((voluntario) => voluntario["Digite seu nome"])
+    .map((voluntario) => voluntario["Digite seu nome "])
     .sort();
   voluntariosList.innerHTML = "<option></option>";
   voluntariosList.innerHTML += `
@@ -93,7 +93,6 @@ const listarVoluntarios = ({ target }) => {
       horario: voluntario[target.value],
     }));
 
-  console.log(voluntarioDia)
   const horarios = [
     ...new Set(
       voluntarioDia
@@ -103,7 +102,6 @@ const listarVoluntarios = ({ target }) => {
         // .split(";")
     ),
   ].sort();
-  console.log (horarios)
   // const horarios = [
   //   ...new Set(
   //     voluntarioDia
@@ -132,8 +130,26 @@ const listarVoluntarios = ({ target }) => {
   });
 };
 
+function carregarQuantidades () {
+  // console.log(voluntariosDias.map (dia => ({[dia]: 0})))
+
+  console.log(
+    voluntariosDias.reduce((acc, dia) => {
+      // contagem[item] = (contagem[item] || 0) + 1;
+      // return contagem;
+      return {
+        ...acc,
+        [dia]: voluntarios.filter( voluntario => voluntario[dia] ).length
+      }
+    }, {})
+  ) 
+}
+
 carregarVoluntarios();
 carregarDias();
+carregarQuantidades();
+
+
 
 document
   .getElementById("voluntarios-list")

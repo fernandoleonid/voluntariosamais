@@ -533,6 +533,7 @@ export async function  getData() {
         }: {...acc}),{}) 
     })
 
+    console.log (json.table.rows)
 
     return {
         voluntarios: voluntarios,
