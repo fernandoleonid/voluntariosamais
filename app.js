@@ -35,13 +35,13 @@ const carregarDias = () => {
 const voluntariosNome = (nome) =>
   voluntarios.filter(
     (voluntario) =>
-      voluntario["Digite seu nome "].trim().toUpperCase() == nome.toUpperCase()
+      voluntario["Digite seu nome"].trim().toUpperCase() == nome.toUpperCase()
   );
 
 const carregarVoluntarios = () => {
   const voluntariosList = document.getElementById("voluntarios-list");
   const nomes = voluntarios
-    .map((voluntario) => voluntario["Digite seu nome "])
+    .map((voluntario) => voluntario["Digite seu nome"])
     .sort();
   voluntariosList.innerHTML = "<option></option>";
   voluntariosList.innerHTML += `

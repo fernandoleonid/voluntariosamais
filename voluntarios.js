@@ -513,7 +513,7 @@
    
 export async function  getData() {
     let SHEET_ID = '1Qdk5o5SbLXEPpPb2SVXo6My5I5djlnetfccZa8YCLb8'
-    let SHEET_TITLE = 'Respostas ao formulário 1';
+    let SHEET_TITLE = 'Respostas ao formulário 2';
     let SHEET_RANGE = 'a:s'
 
     // let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
@@ -533,7 +533,7 @@ export async function  getData() {
         }: {...acc}),{}) 
     })
 
-    console.log (json.table.rows)
+    console.log (voluntarios[0])
 
     return {
         voluntarios: voluntarios,
