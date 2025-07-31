@@ -130,19 +130,45 @@ const listarVoluntarios = ({ target }) => {
   });
 };
 
-function carregarQuantidades () {
-  // console.log(voluntariosDias.map (dia => ({[dia]: 0})))
+// function carregarQuantidades () {
+//   console.log (voluntarios)
+//   // console.log(voluntariosDias.map (dia => ({[dia]: 0})))
 
-  console.log(
-    voluntariosDias.reduce((acc, dia) => {
-      // contagem[item] = (contagem[item] || 0) + 1;
-      // return contagem;
-      return {
-        ...acc,
-        [dia]: voluntarios.filter( voluntario => voluntario[dia] ).length
-      }
-    }, {})
-  ) 
+//   console.log(
+//     voluntariosDias.reduce((acc, dia) => {
+//       // contagem[item] = (contagem[item] || 0) + 1;
+//       // return contagem;
+//       return {
+//         ...acc,
+//         [dia]: voluntarios.filter( voluntario => voluntario[dia] ).length
+//       }
+//     }, {})
+//   ) 
+// }
+
+function carregarQuantidades() {
+    const resultado = {};
+    const container = document.getElementById("container-quantidades")
+    
+    voluntariosDias.forEach(diaC => {
+        const voluntariosNoDia = voluntarios.filter(voluntario => voluntario[diaC]);
+        let dia = diaC.match(/\d+/)[0]
+        voluntariosNoDia.forEach(voluntario => {
+            const horario = voluntario[diaC]
+            const chave = `${dia} - ${horario}`
+            resultado[chave] = (resultado[chave] || 0) + 1
+        });
+    });
+
+
+    Object.entries(resultado).forEach (qtd => {
+            const item = document.createElement('div')
+            if (qtd[1] < 5) item.classList.add('atencao')
+            item.textContent = qtd.join(' - ')
+            container.appendChild(item)
+    })
+    
+    return resultado;
 }
 
 carregarVoluntarios();

@@ -97,3 +97,15 @@ select{
 div[content*="CAIXA"]{
     color: red;
 }
+
+#container-quantidades{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.5rem;
+}
+.atencao {
+    background-color: orange;
+}

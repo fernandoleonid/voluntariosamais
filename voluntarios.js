@@ -533,7 +533,7 @@ export async function  getData() {
         }: {...acc}),{}) 
     })
 
-    console.log (voluntarios[0])
+    // console.log (voluntarios[0])
 
     return {
         voluntarios: voluntarios,
