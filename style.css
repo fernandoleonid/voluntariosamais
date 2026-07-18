@@ -1,100 +1,188 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-main{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    gap: 20px;
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #EEF3FB;
+    color: #212121;
 }
 
-select{
-    padding: 8px;
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 48px;
+}
+
+select {
+    padding: 10px 12px;
     width: 100%;
-    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    border: 2px solid #BBDEFB;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #1565C0;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
 }
 
-.aviso{
-    height: 10vh;
-    background-color: #70D8FF;
+select:focus {
+    border-color: #1565C0;
+}
+
+.aviso {
+    background: linear-gradient(135deg, #0D47A1, #1E88E5);
+    color: #fff;
+    padding: 28px 16px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 6px;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     text-align: center;
+    box-shadow: 0 4px 16px rgba(13, 71, 161, 0.3);
 }
-.pesquisa{
+
+.aviso h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.aviso h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    opacity: 0.85;
+}
+
+.pesquisa {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 
-@media (max-width:768px) {
-    .pesquisa>div{
+@media (max-width: 768px) {
+    .pesquisa > div {
         width: 90%;
+        min-width: unset;
     }
 }
 
-.pesquisa>div{
-    min-width: 350px;
+.pesquisa > div {
+    min-width: 320px;
     min-height: 300px;
-    padding: 12px;
-    box-shadow: 0px 0px 12px #555;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(13, 71, 161, 0.1);
+    border-top: 4px solid #1565C0;
 }
 
-.pesquisa__result{
+.pesquisa h2 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1565C0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.pesquisa__result {
     display: flex;
     flex-direction: column;
-    padding-top: 8px;
+    padding-top: 12px;
     gap: 8px;
 }
 
-.pesquisa__result>div{
-    border: 1px solid black;
+.pesquisa__result > div {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #E3F2FD;
 }
 
-.agenda{
+.agenda {
     display: flex;
     justify-content: space-between;
+}
+
+.agenda__dia {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 10px 12px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    background-color: #F5F9FF;
+}
+
+.agenda__horario {
+    width: 40%;
+    padding: 10px 8px;
+    background-color: #1565C0;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.82rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2px;
 }
 
-.agenda__dia{
-    display: flex;
-    align-items: center;
-    width:70%;
-    padding: 8px;
-    /* border: 1px solid black; */
-    box-shadow: 0px 0px 4px 1px #c1c1c1;
-}
-.agenda__horario{
-    width:30%;
-    padding: 8px;
-    box-shadow: 0px 0px 4px 1px #c1c1c1;
-    /* border-left: 1px solid black; */
-    text-align: end;
-}
-
-.agenda__horario-dia{
-    padding: 8px;
+.agenda__horario-dia {
+    padding: 10px 12px;
     text-align: center;
-    font-weight: 900;
-    box-shadow: 0px 4px 4px #c1c1c1;
-    background-color: #9BE4FF;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: #BBDEFB;
+    color: #0D47A1;
+    border-radius: 6px;
+    margin-bottom: 4px;
 }
 
-.agenda__nome-dia{
-    padding: 8px 0px 0px 12px;
-    font-size: .9rem;
+.agenda__nome-dia {
+    padding: 8px 12px;
+    font-size: 0.88rem;
+    color: #333;
+    border-bottom: 1px solid #F0F4FF;
 }
-div[content*="CAIXA"]{
+
+.agenda__nome-dia:last-child {
+    border-bottom: none;
+}
+
+#container-quantidades {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.atencao {
+    background-color: #FFF8E1;
+    color: #E65100;
+    border-left: 4px solid #FF8F00;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+div[content*="CAIXA"] {
     color: red;
 }
 
