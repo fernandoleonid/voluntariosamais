@@ -2,7 +2,7 @@
 export async function  getData() {
     let SHEET_ID = '1srhXUSIu0zQs7ruMrNg4YwStBq40bsG0zoqG0vO_5hI'
     let SHEET_TITLE = 'festaagosto2026respostas';
-    let SHEET_RANGE = 'a:s'
+    let SHEET_RANGE = 'a:t'
 
     let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
 
